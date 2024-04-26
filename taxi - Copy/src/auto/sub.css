@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to bottom, #0074D9, #001f3f); /* Blue gradient */
+    /* Updated gradient direction */
+}
+.paycard {
+    width: 198%;
+    /* margin: 19px auto; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.paycard > div {
+    flex: 1;
+}
+
+.paycard > div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paycard img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%; /* To make the image circular */
+}
+
+.paycard h1 {
+    margin: 5px 0;
+}
+
+.paycard p {
+    margin: 3px 0;
+}
+
+.paycard > div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.paycard h3,
+.paycard h4,
+.paycard p {
+    margin: 5px 0;
+}
+
+.paycard button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.paycard button:hover {
+    background-color: #0056b3;
+}
+
+.paycard button:focus {
+    outline: none;
+}
